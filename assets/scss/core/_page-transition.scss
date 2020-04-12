@@ -1,0 +1,14 @@
+.body-page-transition {
+  align-items: center;
+  background-image: url("../img/page-transition-background.jpg");
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}

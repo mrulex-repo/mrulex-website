@@ -1,0 +1,50 @@
+{
+  "name": "@mrulex/mrulex-website",
+  "version": "1.0.0",
+  "description": "Website for mrulex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node index.js",
+    "clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/",
+    "install:clean": "yarn clean && yarn install",
+    "dev:clean": "yarn install:clean && yarn dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrulex-repo/mrulex-website.git"
+  },
+  "moduleRoots": [
+    "./"
+  ],
+  "author": "Ruben Dario Porras Sanchez",
+  "license": "MIT",
+  "homepage": "https://www.mrulex.com",
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "@zeit/next-sass": "^1.0.1",
+    "classnames": "^2.2.6",
+    "express": "^4.17.1",
+    "i18next": "^19.3.3",
+    "moment": "^2.24.0",
+    "next": "^9.1.7",
+    "next-compose-plugins": "^2.2.0",
+    "next-i18next": "^4.2.1",
+    "next-images": "^1.3.0",
+    "nextjs-redirect": "^1.1.2",
+    "node-sass": "^4.13.0",
+    "nouislider": "^14.1.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.12.0",
+    "react-slick": "^0.25.2",
+    "react-swipeable-views": "0.13.3",
+    "styled-components": "^4.4.1",
+    "webpack": "^4.41.5"
+  }
+}

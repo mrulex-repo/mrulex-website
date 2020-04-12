@@ -1,0 +1,21 @@
+{
+  "authorization-service": {
+    "short-description": "Protect your services using this Oauth2 service, manage their authorizations and scopes.",
+    "title": "Authorization Service"
+  },
+  "identity-service": {
+    "short-description": "Get to know your customer by validating their identity, make sure that behind the transactions are the people they say they are.",
+    "title": "Identity Service"
+  },
+  "notification-service": {
+    "short-description": "Send messages by different channels: E-mail, SMS, Push or messenger application.",
+    "title": "Notification Service"
+  },
+  "users-service": {
+    "short-description": "Manage your users with this easy to use and simple, but powerful service.",
+    "title": "Users Service"
+  },
+  "description": "Solutions to help your organization grow and processes without dealing with maintainance.",
+  "more": "All Products",
+  "title": "Our Products"
+}
