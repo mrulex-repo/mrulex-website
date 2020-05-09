@@ -34,15 +34,22 @@ const Header = (props) => {
 
   const { menu, home } = props;
 
+  let menuButton = null;
+  if (menu) {
+    menuButton = (
+        <IconButton color="inherit" aria-label="open drawer" onClick={handleDrawerToggle}>
+          <Menu />
+        </IconButton>
+    );
+  }
+
   return (
     <AppBar className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
         {home ? home : <div></div>}
         <Hidden xsDown implementation="css">{menu}</Hidden>
         <Hidden smUp>
-          <IconButton color="inherit" aria-label="open drawer" onClick={handleDrawerToggle}>
-            <Menu />
-          </IconButton>
+          {menuButton ? menuButton : <div></div>}
         </Hidden>
       </Toolbar>
       <Hidden smUp implementation="js">

@@ -1,21 +1,21 @@
 {
   "authorization-service": {
-    "short-description": "Protect your services using this Oauth2 service, manage their authorizations and scopes.",
+    "short-description": "Protege servicios, mediante esta implementación de Oauth2, administre autorizaciones y scopes.",
     "title": "Authorization Service"
   },
   "identity-service": {
-    "short-description": "Get to know your customer by validating their identity, make sure that behind the transactions are the people they say they are.",
+    "short-description": "Servicio de validación de indentidad de clientes y usuarios.",
     "title": "Identity Service"
   },
   "notification-service": {
-    "short-description": "Send messages by different channels: E-mail, SMS, Push or messenger application.",
+    "short-description": "Servicio para envio de mensajes, puede enviar mediante diferentes canales: E-mail, SMS, Push or aplicación de mensajería.",
     "title": "Notification Service"
   },
   "users-service": {
-    "short-description": "Manage your users with this easy to use and simple, but powerful service.",
+    "short-description": "Administre sus usuarios mediante este simple, pero poderoso servicio.",
     "title": "Users Service"
   },
-  "description": "Solutions to help your organization grow and processes without dealing with maintainance.",
-  "more": "All Products",
-  "title": "Our Products"
+  "description": "Soluciones para ayudar al crecimiento de su organización sin tener que preocuparse por el mantenimiento.",
+  "more": "Todos Los Productos",
+  "title": "Nuestros Products"
 }
