@@ -41,7 +41,12 @@ class MyApp extends App {
 
     return (
       <Fragment>
-        <Head><title>mrulex</title></Head>
+        <Head>
+          <title>mrulex</title>
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          <meta name="theme-color" content="#000000" />
+        </Head>
         <Header home={<HeaderHome />} /* menu={<HeaderMenu />} */ />
         <Component {...pageProps} />
         <Footer />
