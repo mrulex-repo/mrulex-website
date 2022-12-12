@@ -27,7 +27,7 @@
     "@material-ui/icons": "^4.5.1",
     "@zeit/next-sass": "^1.0.1",
     "classnames": "^2.2.6",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "i18next": "^19.4.1",
     "moment": "^2.29.4",
     "next": "^12.1.0",
